@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>pessoal-blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2019-07-13T18:14:32-03:00</updated><entry><title>Segunda noticia</title><link href="/segunda-noticia.html" rel="alternate"></link><published>2019-07-13T18:14:32-03:00</published><updated>2019-07-13T18:14:32-03:00</updated><author><name>pixies</name></author><id>tag:None,2019-07-13:/segunda-noticia.html</id><summary type="html">&lt;p&gt;i see you&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;i see you&lt;/p&gt;
-</content></entry><entry><title>Sobre esta página</title><link href="/sobre-esta-pagina.html" rel="alternate"></link><published>2019-07-13T18:14:32-03:00</published><updated>2019-07-13T18:14:32-03:00</updated><author><name>pixies</name></author><id>tag:None,2019-07-13:/sobre-esta-pagina.html</id><summary type="html">&lt;p&gt;i see you&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;i see you&lt;/p&gt;
-</content></entry></feed>
+</content></entry><entry><title>Sobre esta página</title><link href="/sobre-esta-pagina.html" rel="alternate"></link><published>2019-07-13T18:14:32-03:00</published><updated>2019-07-13T18:14:32-03:00</updated><author><name>pixies</name></author><id>tag:None,2019-07-13:/sobre-esta-pagina.html</id><summary type="html">&lt;p&gt;:content:i see you&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;:content:i see you&lt;/p&gt;
+</content><category term="blog"></category></entry></feed>
