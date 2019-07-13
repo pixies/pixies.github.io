@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+Makefile
+pelicanconf.py
+publishconf.py
+tasks.py
