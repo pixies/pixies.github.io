@@ -4,11 +4,21 @@
 &lt;p&gt;Após instalar GNU/Linux (ArchLinux) em meu Macbook Pro passei uma semana escrevendo sem utilizar acentução nas palavras, e sempre que partia para configurar um teclado compatível ele não funcionava corretamente, então cheguei nesta referência &lt;a href="https://www.macminds.com.br/?p=29" target="_blank" title="Acentuação: os desafios de pontuar no Mac"&gt;"Acentuação: os desafios de pontuar no Mac"&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Contudo não é nada de outro mundo, basta memorizar a sequência de teclas abaixo:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Acento Agudo (´): Option + E&lt;/li&gt;
-&lt;li&gt;C Com Cedilha (Ç): Option + C&lt;/li&gt;
-&lt;li&gt;Til (~): Option + N&lt;/li&gt;
-&lt;li&gt;Acento Circunflexo (^): Option + I&lt;/li&gt;
-&lt;li&gt;Crase (&lt;code&gt;): Option + Tecla&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Acento Agudo (´): Option + E&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;C Com Cedilha (Ç): Option + C&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Til (~): Option + N&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Acento Circunflexo (^): Option + I&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Crase (`): Option + Tecla `&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;code&gt;
 --~ Esta postagem será reatualizada algumas vezes até está concluída, esta é a sua primeira versão.
