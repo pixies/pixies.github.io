@@ -18,69 +18,46 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/mais-uma-publicacao-utilizando-pelican.html">Mais uma publicacao utilizando Pelican</a></h1>
+                    <h1 class="entry-title"><a href="/um-site-pessoal-com-pelican.html">Um site pessoal com Pelican</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2019-07-13T19:28:00-03:00">
-                Published: sáb 13 julho 2019
+        <abbr class="published" title="2019-07-13T19:22:00-03:00">
+                Published: Sat 13 July 2019
         </abbr>
 
         <address class="vcard author">
                 By                         <a class="url fn" href="/author/pixies.html">pixies</a>
         </address>
 <p>In <a href="/category/blog.html">Blog</a>.</p>
-<p>tags: <a href="/tag/pelican.html">pelican</a> <a href="/tag/python.html">python</a> </p>
-</footer><!-- /.post-info --><p>Mais uma publicacao utilizando pelican</p>                </article>
+<p>tags: <a href="/tag/pelican.html">pelican</a> <a href="/tag/python.html">python</a> <a href="/tag/blog.html">blog</a> </p>
+</footer><!-- /.post-info --><p>Já tem algum tempo que eu venho tentando voltar a escrever minhas loucuras. Não queria também neste momento gastar uma grana com VSP, Servidor, ou algo do tipo. Então alguns problemas simples surgiram como qual serviço de hospedagem e qual tecnologia usar. Então vamos por partes:</p>
+<h2>Primeiro</h2>
+<p>Descidi usar o serviço de páginas estáticas do github, o <a href="http://github.io" target="_blank">githubpages</a>. Desta forma eu tenho um serviço estável e consolidado para servir minhas páginas.</p>
+<h2>Segundo</h2>
+<p>Não estava muito afim de criar meus HTMLs na unha sempre que tivesse afim de escrever um conteúdo qualquer, de forma que precisava de um gerador de páginas HTMLs. A alguns anos atras conheci o <a href="https://jekillrb.com" target="_blank" title="Jekill - Transform your plain text into static website and blogs">Jekill</a> uma ferramenta bacana para gerar HTMLs porém não estava muito confortável em ter que usar <a href="http://ruby-lang.org/pt/" target="_blank" title="Ruby Lang">Ruby</a>, nada contra, apenas não queria usar, então descidi usar o <a href="http://getpelican.com" target="_blank" title="Pelican WebSite">Pelican</a> que basicamente resolve o mesmo problema, mas escrito em <a href="http://python.org" target="_blank" title="Python WebSite">Python</a>.</p>
+<h2>Fazendo funcionar</h2>
+<p>O <a href="http://github.com" target="_blank">GitHub</a> oferece um serviço de páginas estáticas chamado <a href="http://github.io" target="_blank">GithubPages</a> que para utilizar é necessário apenas criar um repositório com o seguinte padrão: username.github.io onde "username" deve ser substituído pelo nome do seu usuário no github.</p>
+<h3>Passo a Passo</h3>
+<ol>
+<li>Se não tiver, crie uma conta no <a href="http://github.com" target="_blank">github</a></li>
+<li>Crie um repositório username.github.io - o meu - pixies.github.io</li>
+<li>Suba seus arquivos neste repositório e acesse o endereço https://username.github.io</li>
+</ol>
+<h2>E o Pelican?</h2>
+<p>Vou entender que você jǻ conhece algumas coisas sobre python, como utilizar ambiente virtual e o utilizar o pip. </p>
+<p>Criando ambiente virtual</p>
+<blockquote>
+<p>$ virtualenv -p python3 venv</p>
+</blockquote>
+<p>Acessando ambiente</p>
+<blockquote>
+<p>$ source venv/bin/activate</p>
+</blockquote>
+<p>Instalando Pelican via pip</p>
+<blockquote>
+<p>(venv)$ pip install pelican</p>
+</blockquote>
+<p>continua... somo o.O zzZZzz</p>                </article>
             </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/instalando-e-configurando-pelican.html" rel="bookmark"
-                           title="Permalink to Instalando e configurando Pelican">Instalando e configurando Pelican</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-07-13T19:22:00-03:00">
-                Published: sáb 13 julho 2019
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/pixies.html">pixies</a>
-        </address>
-<p>In <a href="/category/blog.html">Blog</a>.</p>
-<p>tags: <a href="/tag/pelican.html">pelican</a> <a href="/tag/python.html">python</a> <a href="/tag/install.html">install</a> </p>
-</footer><!-- /.post-info -->                <p>Como instalar e configurar o pelican</p>
-                <a class="readmore" href="/instalando-e-configurando-pelican.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/meu-website-com-pelican.html" rel="bookmark"
-                           title="Permalink to Meu website com Pelican">Meu website com Pelican</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-07-13T19:22:00-03:00">
-                Published: sáb 13 julho 2019
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/pixies.html">pixies</a>
-        </address>
-<p>In <a href="/category/blog.html">Blog</a>.</p>
-<p>tags: <a href="/tag/pelican.html">pelican</a> <a href="/tag/python.html">python</a> </p>
-</footer><!-- /.post-info -->                <p>Publicando meu website usando Pelican.Publicando meu website usando Pelican.Publicando meu website usando Pelican.Publicando meu website usando Pelican.Publicando meu website usando Pelican.Publicando meu website usando Pelican.Publicando meu website usando Pelican.Publicando meu website usando Pelican.Publicando meu website usando Pelican.Publicando meu website usando Pelican …</p>
-                <a class="readmore" href="/meu-website-com-pelican.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
-                </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>links</h2>
