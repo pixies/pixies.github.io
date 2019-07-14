@@ -18,7 +18,35 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/um-site-pessoal-com-pelican.html">Um site pessoal com Pelican</a></h1>
+                    <h1 class="entry-title"><a href="/como-utilizar-acentuacao-em-teclado-americano-do-macbook-pro-no-archlinux.html">Como utilizar acentuação em teclado americano do Macbook pro no ArchLinux</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2019-07-14T10:44:00-03:00">
+                Published: Sun 14 July 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/pixies.html">pixies</a>
+        </address>
+<p>In <a href="/category/blog.html">Blog</a>.</p>
+<p>tags: <a href="/tag/blog.html">blog</a> <a href="/tag/gnu-linux.html">gnu linux</a> <a href="/tag/archlinux.html">archlinux</a> <a href="/tag/config.html">config</a> <a href="/tag/macbook-pro.html">macbook pro</a> <a href="/tag/acentuacao.html">acentuação</a> </p>
+</footer><!-- /.post-info --><h1>Acentuação</h1>
+<p>Termino já!</p>
+<p><code>
+--~ Esta postagem será reatualizada algumas vezes até está concluída, esta é a sua primeira versão.
+</code></p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/um-site-pessoal-com-pelican.html" rel="bookmark"
+                           title="Permalink to Um site pessoal com Pelican">Um site pessoal com Pelican</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2019-07-13T19:22:00-03:00">
                 Published: Sat 13 July 2019
@@ -29,99 +57,14 @@
         </address>
 <p>In <a href="/category/blog.html">Blog</a>.</p>
 <p>tags: <a href="/tag/pelican.html">pelican</a> <a href="/tag/python.html">python</a> <a href="/tag/blog.html">blog</a> </p>
-</footer><!-- /.post-info --><p>Já tem algum tempo que eu venho tentando voltar a escrever minhas loucuras. Não queria também neste momento gastar uma grana com VSP, Servidor, ou algo do tipo. Então alguns problemas simples surgiram como qual serviço de hospedagem e qual tecnologia usar. Então vamos por partes:</p>
+</footer><!-- /.post-info -->                <p>Já tem algum tempo que eu venho tentando voltar a escrever minhas loucuras. Não queria também neste momento gastar uma grana com VSP, Servidor, ou algo do tipo. Então alguns problemas simples surgiram como qual serviço de hospedagem e qual tecnologia usar. Então vamos por partes:</p>
 <h2>Primeiro</h2>
-<p>Descidi usar o serviço de páginas estáticas do github, o <a href="http://github.io" target="_blank">githubpages</a>. Desta forma eu tenho um serviço estável e consolidado para servir minhas páginas.</p>
-<h2>Segundo</h2>
-<p>Não estava muito afim de criar meus HTMLs na unha sempre que tivesse afim de escrever um conteúdo qualquer, de forma que precisava de um gerador de páginas HTMLs. A alguns anos atras conheci o <a href="https://jekillrb.com" target="_blank" title="Jekill - Transform your plain text into static website and blogs">Jekill</a> uma ferramenta bacana para gerar HTMLs porém não estava muito confortável em ter que usar <a href="http://ruby-lang.org/pt/" target="_blank" title="Ruby Lang">Ruby</a>, nada contra, apenas não queria usar, então descidi usar o <a href="http://getpelican.com" target="_blank" title="Pelican WebSite">Pelican</a> que basicamente resolve o mesmo problema, mas escrito em <a href="http://python.org" target="_blank" title="Python WebSite">Python</a>.</p>
-<h2>Fazendo funcionar</h2>
-<p>O <a href="http://github.com" target="_blank">GitHub</a> oferece um serviço de páginas estáticas chamado <a href="http://github.io" target="_blank">GithubPages</a> que para utilizar é necessário apenas criar um repositório com o seguinte padrão: username.github.io onde "username" deve ser substituído pelo nome do seu usuário no github.</p>
-<h3>Passo a Passo</h3>
-<ol>
-<li>Se não tiver, crie uma conta no <a href="http://github.com" target="_blank">github</a></li>
-<li>Crie um repositório username.github.io - o meu - pixies.github.io</li>
-<li>Suba seus arquivos neste repositório e acesse o endereço https://username.github.io</li>
-</ol>
-<h2>E o Pelican?</h2>
-<p>Vou entender que você jǻ conhece algumas coisas sobre python, como utilizar ambiente virtual e o utilizar o pip. </p>
-<p>Criando ambiente virtual</p>
-<blockquote>
-<p>$ virtualenv -p python3 venv</p>
-</blockquote>
-<p>Acessando ambiente</p>
-<blockquote>
-<p>$ source venv/bin/activate</p>
-</blockquote>
-<p>Instalando Pelican via pip</p>
-<blockquote>
-<p>(venv)$ pip install pelican</p>
-</blockquote>
-<h2>Criando seu primeiro WebSite</h2>
-<p>Se você criou um repositório e ele ainda está vazio, simplesmente clone-o e vá para a pasta do seu projeto. Siga até shellunix (percebeu agora que eu acredito que você não usa uinous!?) de preferência e rode o seguinte comando, responda as perguntas necessárias e sinta-se a vontade para confirmar as opções default que estão entre parenteses.</p>
-<blockquote>
-<p>(env)$ pelican-quickstart
-(env)$ tree</p>
-</blockquote>
-<p><code> 
- ├── content</p>
-<p>├── Makefile</p>
-<p>├── output</p>
-<p>├── pelicanconf.py</p>
-<p>├── publishconf.py</p>
-<p>├── tasks.py
-</code></p>
-<h3>Estrutura de arquivos e diretótios</h3>
-<ol>
-<li>O diretótio "content" ficará todos fontes de todo o conteúdo produzido;</li>
-<li>Makefile contem instruções para automatizar processos;</li>
-<li>No diretório "output" ficará todos os arquivos staticos gerados a partir do conteúdo que está no diretório "content";
-...</li>
-<li></li>
-</ol>
-<h3>Criando seu primeiro conteúdo</h3>
-<p>Siga até o diretório "content" e crie um diretório chamado de "pages" onde todas os arquivos destinados as páginas serão criados, agora dentro do diretório "pages" crie um arquivo com a extenção .rst, "contanto.rst" e escreva o seguinte conteúdo:</p>
-<p><code></p>
-<blockquote>
-<p>Title: Página de Contúdo</p>
-<p>Date: 2019-07-14 10:20</p>
-<p>Category: Pages</p>
-<p>Está é a página de Contatos</p>
-<p></code></p>
-</blockquote>
-<p>Observe que diretório "output" ainda está vazio, agora rode o comando "pelican" pela primeira vez:</p>
-<blockquote>
-<p>(env)$ pelican</p>
-</blockquote>
-<p><code></p>
-<blockquote>
-<p>| BaseReader (static)</p>
-<p>| HTMLReader (htm, html)</p>
-<p>| RstReader (rst)</p>
-<p>Done: Processed 0 articles, 0 drafts, 1 pages, 0 hidden pages and 0 draft pages in 0.07 seconds.</p>
-<p></code></p>
-</blockquote>
-<h3>Abrindo meu website</h3>
-<p>Você pode simplemente abrir seu navegador de internet preferido e navegar até o diretório output do seu projeto e abrir o arquivo index.html, ou pode na sua shellunix entrar no diretório output e rodar o seguinte comando:</p>
-<blockquote>
-<p>(env)$ cd  output</p>
-<p>(env)$ python3 -m http.server</p>
-</blockquote>
-<p><code></p>
-<blockquote>
-<p>Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
-</code></p>
-</blockquote>
-<p>Agora em seu navegador preferido acesse http://localhost:8000</p>
-<h2>Publicando seu website no githubpages</h2>
-<p>Uma vez seu website pronto, execute o comando:</p>
-<blockquote>
-<p>(env)$ make github</p>
-</blockquote>
-<p>Este comando ira preparar seu projeto para fazer push no github, insira suas credênciais e ao finalizar acesse sua página em https://username.github.io</p>
-<p><code>
---~ Esta postagem será reatualizada algumas vezes até está concluída, esta é a sua primeira versão.
-</code></p>                </article>
-            </aside><!-- /#featured -->
+<p>Descidi usar o …</p>
+                <a class="readmore" href="/um-site-pessoal-com-pelican.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>links</h2>
