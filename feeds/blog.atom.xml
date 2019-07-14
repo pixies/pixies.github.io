@@ -28,4 +28,68 @@
 &lt;blockquote&gt;
 &lt;p&gt;(venv)$ pip install pelican&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;continua... somo o.O zzZZzz&lt;/p&gt;</content><category term="pelican"></category><category term="python"></category><category term="blog"></category></entry></feed>
+&lt;h2&gt;Criando seu primeiro WebSite&lt;/h2&gt;
+&lt;p&gt;Se você criou um repositório e ele ainda está vazio, simplesmente clone-o e vá para a pasta do seu projeto. Siga até shellunix (percebeu agora que eu acredito que você não usa uinous!?) de preferência e rode o seguinte comando, responda as perguntas necessárias e sinta-se a vontade para confirmar as opções default que estão entre parenteses.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(env)$ pelican-quickstart
+(env)$ tree&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt; 
+ ├── content&lt;/p&gt;
+&lt;p&gt;├── Makefile&lt;/p&gt;
+&lt;p&gt;├── output&lt;/p&gt;
+&lt;p&gt;├── pelicanconf.py&lt;/p&gt;
+&lt;p&gt;├── publishconf.py&lt;/p&gt;
+&lt;p&gt;├── tasks.py
+&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;Estrutura de arquivos e diretótios&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;O diretótio "content" ficará todos fontes de todo o conteúdo produzido;&lt;/li&gt;
+&lt;li&gt;Makefile contem instruções para automatizar processos;&lt;/li&gt;
+&lt;li&gt;No diretório "output" ficará todos os arquivos staticos gerados a partir do conteúdo que está no diretório "content";
+...&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Criando seu primeiro conteúdo&lt;/h3&gt;
+&lt;p&gt;Siga até o diretório "content" e crie um diretório chamado de "pages" onde todas os arquivos destinados as páginas serão criados, agora dentro do diretório "pages" crie um arquivo com a extenção .rst, "contanto.rst" e escreva o seguinte conteúdo:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Title: Página de Contúdo&lt;/p&gt;
+&lt;p&gt;Date: 2019-07-14 10:20&lt;/p&gt;
+&lt;p&gt;Category: Pages&lt;/p&gt;
+&lt;p&gt;Está é a página de Contatos&lt;/p&gt;
+&lt;p&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Observe que diretório "output" ainda está vazio, agora rode o comando "pelican" pela primeira vez:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(env)$ pelican&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;| BaseReader (static)&lt;/p&gt;
+&lt;p&gt;| HTMLReader (htm, html)&lt;/p&gt;
+&lt;p&gt;| RstReader (rst)&lt;/p&gt;
+&lt;p&gt;Done: Processed 0 articles, 0 drafts, 1 pages, 0 hidden pages and 0 draft pages in 0.07 seconds.&lt;/p&gt;
+&lt;p&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Abrindo meu website&lt;/h3&gt;
+&lt;p&gt;Você pode simplemente abrir seu navegador de internet preferido e navegar até o diretório output do seu projeto e abrir o arquivo index.html, ou pode na sua shellunix entrar no diretório output e rodar o seguinte comando:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(env)$ cd  output&lt;/p&gt;
+&lt;p&gt;(env)$ python3 -m http.server&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Agora em seu navegador preferido acesse http://localhost:8000&lt;/p&gt;
+&lt;h2&gt;Publicando seu website no githubpages&lt;/h2&gt;
+&lt;p&gt;Uma vez seu website pronto, execute o comando:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(env)$ make github&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Este comando ira preparar seu projeto para fazer push no github, insira suas credênciais e ao finalizar acesse sua página em https://username.github.io&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;
+--~ Esta postagem será reatualizada algumas vezes até está concluída, esta é a sua primeira versão.
+&lt;/code&gt;&lt;/p&gt;</content><category term="pelican"></category><category term="python"></category><category term="blog"></category></entry></feed>

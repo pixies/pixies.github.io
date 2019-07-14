@@ -56,7 +56,71 @@
 <blockquote>
 <p>(venv)$ pip install pelican</p>
 </blockquote>
-<p>continua... somo o.O zzZZzz</p>                </article>
+<h2>Criando seu primeiro WebSite</h2>
+<p>Se você criou um repositório e ele ainda está vazio, simplesmente clone-o e vá para a pasta do seu projeto. Siga até shellunix (percebeu agora que eu acredito que você não usa uinous!?) de preferência e rode o seguinte comando, responda as perguntas necessárias e sinta-se a vontade para confirmar as opções default que estão entre parenteses.</p>
+<blockquote>
+<p>(env)$ pelican-quickstart
+(env)$ tree</p>
+</blockquote>
+<p><code> 
+ ├── content</p>
+<p>├── Makefile</p>
+<p>├── output</p>
+<p>├── pelicanconf.py</p>
+<p>├── publishconf.py</p>
+<p>├── tasks.py
+</code></p>
+<h3>Estrutura de arquivos e diretótios</h3>
+<ol>
+<li>O diretótio "content" ficará todos fontes de todo o conteúdo produzido;</li>
+<li>Makefile contem instruções para automatizar processos;</li>
+<li>No diretório "output" ficará todos os arquivos staticos gerados a partir do conteúdo que está no diretório "content";
+...</li>
+<li></li>
+</ol>
+<h3>Criando seu primeiro conteúdo</h3>
+<p>Siga até o diretório "content" e crie um diretório chamado de "pages" onde todas os arquivos destinados as páginas serão criados, agora dentro do diretório "pages" crie um arquivo com a extenção .rst, "contanto.rst" e escreva o seguinte conteúdo:</p>
+<p><code></p>
+<blockquote>
+<p>Title: Página de Contúdo</p>
+<p>Date: 2019-07-14 10:20</p>
+<p>Category: Pages</p>
+<p>Está é a página de Contatos</p>
+<p></code></p>
+</blockquote>
+<p>Observe que diretório "output" ainda está vazio, agora rode o comando "pelican" pela primeira vez:</p>
+<blockquote>
+<p>(env)$ pelican</p>
+</blockquote>
+<p><code></p>
+<blockquote>
+<p>| BaseReader (static)</p>
+<p>| HTMLReader (htm, html)</p>
+<p>| RstReader (rst)</p>
+<p>Done: Processed 0 articles, 0 drafts, 1 pages, 0 hidden pages and 0 draft pages in 0.07 seconds.</p>
+<p></code></p>
+</blockquote>
+<h3>Abrindo meu website</h3>
+<p>Você pode simplemente abrir seu navegador de internet preferido e navegar até o diretório output do seu projeto e abrir o arquivo index.html, ou pode na sua shellunix entrar no diretório output e rodar o seguinte comando:</p>
+<blockquote>
+<p>(env)$ cd  output</p>
+<p>(env)$ python3 -m http.server</p>
+</blockquote>
+<p><code></p>
+<blockquote>
+<p>Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+</code></p>
+</blockquote>
+<p>Agora em seu navegador preferido acesse http://localhost:8000</p>
+<h2>Publicando seu website no githubpages</h2>
+<p>Uma vez seu website pronto, execute o comando:</p>
+<blockquote>
+<p>(env)$ make github</p>
+</blockquote>
+<p>Este comando ira preparar seu projeto para fazer push no github, insira suas credênciais e ao finalizar acesse sua página em https://username.github.io</p>
+<p><code>
+--~ Esta postagem será reatualizada algumas vezes até está concluída, esta é a sua primeira versão.
+</code></p>                </article>
             </aside><!-- /#featured -->
         <section id="extras" class="body">
                 <div class="blogroll">
