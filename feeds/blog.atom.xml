@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>pixies @ website - Blog</title><link href="/" rel="alternate"></link><link href="/feeds/blog.atom.xml" rel="self"></link><id>/</id><updated>2019-07-14T10:44:00-03:00</updated><entry><title>Como utilizar acentuação em teclado americano do Macbook pro no ArchLinux</title><link href="/como-utilizar-acentuacao-em-teclado-americano-do-macbook-pro-no-archlinux.html" rel="alternate"></link><published>2019-07-14T10:44:00-03:00</published><updated>2019-07-14T10:44:00-03:00</updated><author><name>pixies</name></author><id>tag:None,2019-07-14:/como-utilizar-acentuacao-em-teclado-americano-do-macbook-pro-no-archlinux.html</id><summary type="html">&lt;h1&gt;Acentuação&lt;/h1&gt;
-&lt;p&gt;Termino já!&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;
---~ Esta postagem será reatualizada algumas vezes até está concluída, esta é a sua primeira versão.
-&lt;/code&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Acentuação&lt;/h1&gt;
-&lt;p&gt;Termino já!&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>pixies @ website - Blog</title><link href="/" rel="alternate"></link><link href="/feeds/blog.atom.xml" rel="self"></link><id>/</id><updated>2019-07-14T10:44:00-03:00</updated><entry><title>Como utilizar acentuação em teclado americano do Macbook pro no ArchLinux</title><link href="/como-utilizar-acentuacao-em-teclado-americano-do-macbook-pro-no-archlinux.html" rel="alternate"></link><published>2019-07-14T10:44:00-03:00</published><updated>2019-07-14T10:44:00-03:00</updated><author><name>pixies</name></author><id>tag:None,2019-07-14:/como-utilizar-acentuacao-em-teclado-americano-do-macbook-pro-no-archlinux.html</id><summary type="html">&lt;h1&gt;Macbook pro com ArchLinux - Ops... onde foram parar os acentos?&lt;/h1&gt;
+&lt;p&gt;Após instalar GNU/Linux (ArchLinux) em meu Macbook Pro passei uma semana escrevendo sem utilizar acentução nas palavras, e sempre que partia para configurar um teclado compatível ele não funcionava corretamente, então cheguei nesta referência &lt;a href="https://www.macminds.com.br/?p=29" target="_blank" title="Acentuação: os desafios de pontuar no Mac"&gt;"Acentuação: os desafios de pontuar …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Macbook pro com ArchLinux - Ops... onde foram parar os acentos?&lt;/h1&gt;
+&lt;p&gt;Após instalar GNU/Linux (ArchLinux) em meu Macbook Pro passei uma semana escrevendo sem utilizar acentução nas palavras, e sempre que partia para configurar um teclado compatível ele não funcionava corretamente, então cheguei nesta referência &lt;a href="https://www.macminds.com.br/?p=29" target="_blank" title="Acentuação: os desafios de pontuar no Mac"&gt;"Acentuação: os desafios de pontuar no Mac"&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Contudo não é nada de outro mundo, basta memorizar a sequência de teclas abaixo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Acento Agudo (´): Option + E&lt;/li&gt;
+&lt;li&gt;C Com Cedilha (Ç): Option + C&lt;/li&gt;
+&lt;li&gt;Til (~): Option + N&lt;/li&gt;
+&lt;li&gt;Acento Circunflexo (^): Option + I&lt;/li&gt;
+&lt;li&gt;Crase (&lt;code&gt;): Option + Tecla&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;code&gt;
 --~ Esta postagem será reatualizada algumas vezes até está concluída, esta é a sua primeira versão.
 &lt;/code&gt;&lt;/p&gt;</content><category term="blog"></category><category term="gnu linux"></category><category term="archlinux"></category><category term="config"></category><category term="macbook pro"></category><category term="acentuação"></category></entry><entry><title>Um site pessoal com Pelican</title><link href="/um-site-pessoal-com-pelican.html" rel="alternate"></link><published>2019-07-13T19:22:00-03:00</published><updated>2019-07-13T19:22:00-03:00</updated><author><name>pixies</name></author><id>tag:None,2019-07-13:/um-site-pessoal-com-pelican.html</id><summary type="html">&lt;p&gt;Já tem algum tempo que eu venho tentando voltar a escrever minhas loucuras. Não queria também neste momento gastar uma grana com VSP, Servidor, ou algo do tipo. Então alguns problemas simples surgiram como qual serviço de hospedagem e qual tecnologia usar. Então vamos por partes:&lt;/p&gt;
